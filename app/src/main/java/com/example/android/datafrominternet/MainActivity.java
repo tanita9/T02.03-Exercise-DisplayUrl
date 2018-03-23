@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int itemThatWasClickedId = item.getItemId();
+        int itemThatWasClickedId = item.getItemId() ;
         if (itemThatWasClickedId == R.id.action_search) {
             // TODO (4) Remove the Toast message when the search menu item is clicked
             //Context context = MainActivity.this;
